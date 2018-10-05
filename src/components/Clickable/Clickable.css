@@ -1,0 +1,22 @@
+img {
+  width: 200px;
+}
+
+.shell {
+  height: 200px;
+  overflow: hidden;
+}
+
+.clickable {
+  border: 1px gray solid;
+  width: 210px;
+  height: 210px;
+  padding: 5px;
+  float: left;
+  z-index: 10000;
+}
+
+.clickable:hover{
+  background-color: black;
+  display: inline-block;
+}

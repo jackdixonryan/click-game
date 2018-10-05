@@ -1,0 +1,48 @@
+#left {
+  position: fixed;
+  background-color: white;
+  border: 1px lightgray solid;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  animation-name: exitLeft;
+  animation-duration: 6s;
+}
+
+#left-img {
+  position: absolute;
+  width: 50%;
+  top: 38.7%;
+  left: 75%;
+}
+
+#right {
+  position: fixed;
+  background-color: white;
+  border: 1px lightgray solid;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  margin-left: 50%;
+  animation-name: exitRight;
+  animation-duration: 6s;
+}
+
+#right-img {
+  position: absolute;
+  width: 50%;
+  top: 38.7%;
+  right: 75%;
+}
+
+@keyframes exitLeft {
+  0% {margin-left: 0px;}
+  25% {margin-left: 0px;}
+  100% {margin-left: -50%;}
+}
+
+@keyframes exitRight {
+  0% {margin-left: 50%}
+  25% {margin-left: 50%}
+  100% {margin-left: 100%}
+}
