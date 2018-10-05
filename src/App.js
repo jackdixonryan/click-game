@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Chars from './components/Chars';
 import Clickable from './components/Clickable/Clickable';
 import Gates from './components/Gates/Gates.js';
+import './App.css';
 
 class App extends Component{
   constructor(props){
